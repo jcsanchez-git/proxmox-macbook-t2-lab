@@ -47,7 +47,8 @@ Proxmox VE se elige como plataforma base por las siguientes razones:
         Firewalls
 
         Clustering (a nivel teórico/práctico)
-      Facilita la adopción de criterio de arquitectura tipo datacenter, incluso en un solo nodo.
+    
+     Facilita la adopción de criterio de arquitectura tipo datacenter, incluso en un solo nodo.
   
   El objetivo no es simplemente "levantar VMs", sino aprender cómo se diseña, opera y documenta
   infraestructura real.
