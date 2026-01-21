@@ -50,7 +50,7 @@ Cualquier uso fuera de estos límites quedan bajo responsabilidad exclusiva del 
 
 Este documento asume que el lector:
   
-- Posee conocimientos intermedios o avanzados de linux.
+- Posee conocimientos intermedios o avanzados de Linux.
 
 - Comprende los conceptos básicos de virtualización y redes.
 
@@ -87,4 +87,4 @@ Antes de continuar, es importante tener en cuenta:
 
 - El laboratorio está pensado para aprendizaje y experimentación, no para cargas críticas.
 
-Continuar implica aceptar estas condiciones y entender el entendimiento experimental del proyecto.
+Continuar implica aceptar estas condiciones y comprender el caráracter experimental del proyecto.
