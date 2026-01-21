@@ -24,9 +24,7 @@ configuraciones poco realistas.
 El problema concreto que este proyecto aborda es:
 
 - ¿Cómo practicar Proxmox VE de forma realista sin hardware de datacenter?
-
 - ¿Qué tan viable es reutilizar hardware Apple con chip T2 para virtualización?
-
 - ¿Cuáles son las limitaciones reales y cómo afectan el diseño del laboratorio?
 
 Este documento busca responder esas preguntas de manera honesta, técnica y 
@@ -43,11 +41,8 @@ Proxmox VE se elige como plataforma base por las siguientes razones:
 - Permite trabajar conceptos reales de:
 
   - Networking
-
   - Almacenamiento
-
   - Firewalls
-
   - Clustering (a nivel teórico/práctico)
     
 - Facilita la adopción de criterio de arquitectura tipo datacenter, incluso en un solo nodo.
@@ -60,9 +55,7 @@ Proxmox VE se elige como plataforma base por las siguientes razones:
 El uso de un Macbook Pro 2018 responde a una decisión pragmática:
 
 - Es hardware disponible, robusto y bien construido.
-
 - Cuenta con CPU Intel compatible con virtualización.
-
 - Presenta desafíos reales (chip T2, firmware, drivers) que obligan a entender 
   el sistema en profundidad.
 
@@ -78,13 +71,9 @@ sino que explora conscientemente sus límites con fines educativos.
 La filosofía que guía este laboratorio se basa en los siguientes principios:
   
 - 📐 Aquitectura antes que automatización: entender el diseño es prioritario.
-
 - 🧪 Experimentación controlada: cambios documentados, impactos medidos.
-
 - 📜 Documentación como parte del sistema: lo no documentado no existe.
-
 - ⚠️ Expectativas realistas: no es producción, no es alta disponibilidad.
-
 - 🔁 Reproducibilidad: cualquier lector debe poder replicar el entorno.
 
  Un laboratorio bien diseñado y documentado aporta más valor técnico que 
